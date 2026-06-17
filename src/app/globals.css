@@ -6,6 +6,8 @@
   }
 }
 
-body {
-  background-color: bisque;
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900;
+  }
 }
